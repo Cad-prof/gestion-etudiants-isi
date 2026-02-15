@@ -8,12 +8,12 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <div>
             <h1 class="h2 mb-0">
-                <i class="bi bi-person-badge text-success"></i> Gestion des Enseignants
+                <i class=" text-success"></i> Gestion des Enseignants
             </h1>
             <p class="text-muted">{{ $enseignants->total() }} enseignant(s) trouvé(s)</p>
         </div>
         <a href="{{ route('enseignants.create') }}" class="btn btn-success">
-            <i class="bi bi-plus-circle"></i> Nouvel Enseignant
+            Nouvel Enseignant
         </a>
     </div>
 

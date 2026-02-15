@@ -7,7 +7,7 @@
     <!-- Page Header -->
     <div class="mb-4">
         <h1 class="h2">
-            <i class="bi bi-person-plus-fill text-success"></i> Nouvel Enseignant
+            <i class=" text-success"></i> Nouvel Enseignant
         </h1>
         <p class="text-muted">Remplissez le formulaire pour ajouter un nouvel enseignant</p>
     </div>
@@ -31,7 +31,7 @@
     <div class="card">
         <div class="card-header bg-success text-white">
             <h5 class="mb-0">
-                <i class="bi bi-clipboard-data"></i> Informations de l'Enseignant
+                <i class=""></i> Informations de l'Enseignant
             </h5>
         </div>
         <div class="card-body">
@@ -42,7 +42,7 @@
                     <!-- Matricule -->
                     <div class="col-md-6">
                         <label for="matricule" class="form-label">
-                            <i class="bi bi-tag-fill text-primary"></i> Matricule
+                            <i class=" text-primary"></i> Matricule
                             <span class="text-danger">*</span>
                         </label>
                         <input type="text" 
@@ -59,7 +59,7 @@
                     <!-- Email -->
                     <div class="col-md-6">
                         <label for="email" class="form-label">
-                            <i class="bi bi-envelope-fill text-primary"></i> Email
+                            <i class=" text-primary"></i> Email
                             <span class="text-danger">*</span>
                         </label>
                         <input type="email" 
@@ -76,7 +76,7 @@
                     <!-- Nom -->
                     <div class="col-md-6">
                         <label for="nom" class="form-label">
-                            <i class="bi bi-person-fill text-primary"></i> Nom
+                            <i class=" text-primary"></i> Nom
                             <span class="text-danger">*</span>
                         </label>
                         <input type="text" 
@@ -93,7 +93,7 @@
                     <!-- Prénom -->
                     <div class="col-md-6">
                         <label for="prenom" class="form-label">
-                            <i class="bi bi-person-fill text-primary"></i> Prénom
+                            <i class=" text-primary"></i> Prénom
                             <span class="text-danger">*</span>
                         </label>
                         <input type="text" 
@@ -110,7 +110,7 @@
                     <!-- Téléphone -->
                     <div class="col-md-6">
                         <label for="telephone" class="form-label">
-                            <i class="bi bi-telephone-fill text-primary"></i> Téléphone
+                            <i class=" text-primary"></i> Téléphone
                             <span class="text-muted">(optionnel)</span>
                         </label>
                         <input type="text" 
@@ -127,7 +127,7 @@
                     <!-- Grade -->
                     <div class="col-md-6">
                         <label for="grade" class="form-label">
-                            <i class="bi bi-bookmark-fill text-primary"></i> Grade
+                            <i class=" text-primary"></i> Grade
                             <span class="text-danger">*</span>
                         </label>
                         <select class="form-select @error('grade') is-invalid @enderror" 
@@ -158,7 +158,7 @@
                     <!-- Département -->
                     <div class="col-md-6">
                         <label for="departement" class="form-label">
-                            <i class="bi bi-building text-primary"></i> Département
+                            <i class=" text-primary"></i> Département
                             <span class="text-danger">*</span>
                         </label>
                         <select class="form-select @error('departement') is-invalid @enderror" 
@@ -195,7 +195,7 @@
                     <!-- Statut -->
                     <div class="col-md-6">
                         <label for="statut" class="form-label">
-                            <i class="bi bi-shield-check text-primary"></i> Statut
+                            <i class=" text-primary"></i> Statut
                         </label>
                         <select class="form-select @error('statut') is-invalid @enderror" 
                                 id="statut" 
@@ -220,7 +220,7 @@
                         <i class="bi bi-x-circle"></i> Annuler
                     </a>
                     <button type="submit" class="btn btn-success">
-                        <i class="bi bi-check-circle"></i> Enregistrer l'enseignant
+                        <i class=""></i> Enregistrer l'enseignant
                     </button>
                 </div>
             </form>

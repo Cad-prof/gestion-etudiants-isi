@@ -68,7 +68,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('dashboard') }}">
-                <i class="bi bi-mortarboard-fill"></i> Gestion Universitaire
+                 Gestion Universitaire
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -78,36 +78,36 @@
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('dashboard') ? 'active' : '' }}" 
                            href="{{ route('dashboard') }}">
-                            <i class="bi bi-house-door"></i> Dashboard
+                             Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('etudiants.*') ? 'active' : '' }}" 
                            href="{{ route('etudiants.index') }}">
-                            <i class="bi bi-people"></i> Étudiants
+                            Étudiants
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('enseignants.*') ? 'active' : '' }}" 
                            href="{{ route('enseignants.index') }}">
-                            <i class="bi bi-person-badge"></i> Enseignants
+                             Enseignants
                         </a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            <i class="bi bi-plus-circle"></i> Ajouter
+                             Ajouter
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
                                 <a class="dropdown-item" href="{{ route('etudiants.create') }}">
-                                    <i class="bi bi-person-plus"></i> Nouvel Étudiant
+                                    Nouvel Étudiant
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="{{ route('enseignants.create') }}">
-                                    <i class="bi bi-person-badge-fill"></i> Nouvel Enseignant
+                                     Nouvel Enseignant
                                 </a>
                             </li>
                         </ul>

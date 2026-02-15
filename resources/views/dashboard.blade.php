@@ -8,12 +8,12 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <div>
             <h1 class="h2 mb-0">
-                <i class="bi bi-speedometer2 text-primary"></i> Dashboard
+                <i class="bi text-primary"></i> Dashboard
             </h1>
             <p class="text-muted">Vue d'ensemble du système</p>
         </div>
         <div>
-            <span class="badge bg-secondary">{{ now()->format('d/m/Y H:i') }}</span>
+            {{-- <span class="badge bg-secondary">{{ now()->format('d/m/Y H:i') }}</span> --}}
         </div>
     </div>
 
@@ -112,7 +112,7 @@
             <div class="card">
                 <div class="card-header bg-white">
                     <h5 class="card-title mb-0">
-                        <i class="bi bi-bar-chart-fill text-primary"></i>
+                        <i class="bi  text-primary"></i>
                         Enseignants par Département
                     </h5>
                 </div>
@@ -165,7 +165,7 @@
             <div class="card">
                 <div class="card-header bg-white">
                     <h5 class="card-title mb-0">
-                        <i class="bi bi-clock-history text-primary"></i>
+                        <i class="bi text-primary"></i>
                         Derniers Ajouts
                     </h5>
                 </div>
@@ -272,7 +272,7 @@
         <div class="col-md-4">
             <div class="card text-center">
                 <div class="card-body">
-                    <i class="bi bi-people-fill text-primary fs-1 mb-3"></i>
+                    <i class="bi text-primary fs-1 mb-3"></i>
                     <h5 class="card-title">Gérer les Étudiants</h5>
                     <p class="card-text text-muted">Consulter, ajouter ou modifier les étudiants</p>
                     <a href="{{ route('etudiants.index') }}" class="btn btn-primary">
@@ -285,7 +285,7 @@
         <div class="col-md-4">
             <div class="card text-center">
                 <div class="card-body">
-                    <i class="bi bi-person-badge-fill text-success fs-1 mb-3"></i>
+                    <i class="bi text-success fs-1 mb-3"></i>
                     <h5 class="card-title">Gérer les Enseignants</h5>
                     <p class="card-text text-muted">Consulter, ajouter ou modifier les enseignants</p>
                     <a href="{{ route('enseignants.index') }}" class="btn btn-success">
@@ -298,7 +298,7 @@
         <div class="col-md-4">
             <div class="card text-center">
                 <div class="card-body">
-                    <i class="bi bi-search text-info fs-1 mb-3"></i>
+                    <i class="bi text-info fs-1 mb-3"></i>
                     <h5 class="card-title">Recherche Avancée</h5>
                     <p class="card-text text-muted">Rechercher par matricule, nom ou département</p>
                     <a href="{{ route('enseignants.index') }}" class="btn btn-info">
